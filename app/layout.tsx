@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import "./globals.css";export const metadata:Metadata={title:"Kantyna | Restauracja we Wrocławiu",description:"Kantyna przy ul. Pawła Włodkowica 23 we Wrocławiu.",keywords:["Kantyna","restauracja Wrocław","Włodkowica 23"]};export default function Layout({children}:{children:React.ReactNode}){return <html lang="pl"><body>{children}</body></html>}
